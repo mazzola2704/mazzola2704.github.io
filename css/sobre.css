@@ -1,0 +1,85 @@
+/* O seletor body irá alterar todos os elementos do corpo do site. */
+body
+{
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    /* color: Muda a cor da fonte/letras. */
+    color: #3d3d3d;
+    /* Altera a largura do corpo do site. */
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* O seletor titulo irá alterar TODOS os elementos da classe "titulo". */
+.titulo
+{
+    padding: 10px;
+    font-size: 32px;
+    background-color: #e1edf2;
+}
+
+/* O seletor de classe "subtitulo" irá alterar TODOS os elementos da classe "subtitulo" do site. */
+.subtitulo
+{
+    border-bottom: 2px solid black;
+}
+
+figure
+{
+    margin: 30px;
+    padding: 15px;
+
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+}
+
+figcaption
+{
+    margin-top: 10px;
+}
+
+/* Seletor de imagens que estão dentro de "figures". */
+figure img
+{
+    width: 100%;
+}
+
+.meu-escritorio
+{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.escritorio-antigo
+{
+    width: 275px;
+    float: right;
+}
+
+.contato__subtitulo
+{
+    /* display = exibir */
+    display: inline;
+}
+
+.contato__info
+{
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato__info-titulo,
+.contato__info-descricao
+{
+    display: inline;
+}
+
+.contato__info-descricao
+{
+    margin-left: 10px;
+}
+.logo {
+    width: 15%;
+}
